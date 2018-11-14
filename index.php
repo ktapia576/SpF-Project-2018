@@ -13,25 +13,10 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="scripts/main.js"></script>
 
   <!-- NavBar Script functionality -->
-  <script type="text/javascript">
-    // Menu-toggle button
-    $(document).ready(function() {
-      $(".menu-icon").click(function() {
-        $("nav ul").toggleClass("showing");
-      });
-    });
+  <script src="scripts/nav.js">
 
-    // Scrolling Effect
-    $(window).scroll(function() {
-      if ($(window).scrollTop()) {
-        $('nav').addClass('black');
-      } else {
-        $('nav').removeClass('black');
-      }
-    })
   </script>
 </head>
 
