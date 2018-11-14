@@ -3,14 +3,10 @@
 
 <head>
   <meta charset="utf-8">
-  <meta content="stuff, to, help, search, engines, not" name="keywords">
-  <meta content="What this page is about." name="description">
-  <meta content="Display Webcam Stream" name="title">
 
   <title>Home</title>
 
   <link href='styles/style.css' rel='stylesheet' type='text/css'>
-  <!-- <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"> -->
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
@@ -41,27 +37,6 @@
 
 <body>
   <div class="wrapper">
-    <header>
-      <nav>
-        <div class="menu-icon">
-          <i class="fa fa-bars fa-2x"></i>
-        </div>
-
-        <div class="logo">
-          LOGO
-        </div>
-
-        <div class="menu">
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
     <div class="content">
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
