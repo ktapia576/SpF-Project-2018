@@ -80,7 +80,7 @@ nav ul li a {
   padding: 15px 24px;
   cursor: pointer;
   color: #fff;
-  display: none;
+  display: none;  /*do not display div for now */
 }
 
 @media(max-width: 786px) {  /*change properties when browser window is 786px wide or less */
@@ -106,6 +106,6 @@ nav ul li a {
     text-align: center;
   }
   .menu-icon {
-    display: block;
+    display: block; /*display div after jquery runs*/
   }
 }
