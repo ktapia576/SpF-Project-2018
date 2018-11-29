@@ -25,6 +25,7 @@ function start() {
 function snapshot() {
   // Draws current image from the video element into the canvas
   ctx.drawImage(video, 0, 0, canvas.width, canvas.height);
+  alert("Snapshot Taken!");
 }
 
 function upload() {
