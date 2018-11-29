@@ -6,7 +6,7 @@
 
   <title>Webcam</title>
 
-  <link href='styles/style.css' rel='stylesheet' type='text/css'>
+  <link href='styles/webcamStyle.css' rel='stylesheet' type='text/css'>
   <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
   <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
@@ -21,11 +21,22 @@
   <script src="scripts/webcam.js"></script>
 </head>
 
-<body>
+<body onload="start();">
   <div class="wrapper">
     <?php include('includes/header.html'); ?>
-    <div class="content" onload="start();">
-      <video autoplay="true" id="videoElement"></video>
+    <div class="content">
+
+      <div id="videoStream">
+        <video autoplay="true" id="videoElement"></video>
+        </br><button onclick="snapshot();" id="snapshot">Take Snapshot</button>
+      </div>
+
+      <div id="snapshotCanvas">
+        <canvas id="canvasElement" width="500" height="375"></canvas>
+        </br><button onclick="upload();" id="upload"> Upload </button>
+        <button onclick="load();" id="loadTest"> Load Test</button>
+      </div>
+
     </div>
   </div>
 </body>
