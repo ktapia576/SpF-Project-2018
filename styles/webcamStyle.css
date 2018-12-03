@@ -111,6 +111,8 @@ nav ul li a {
   }
 }
 
+/*------------------------------------------------ SEPERATOR FOR CSS SPECIFICALLY FOR WEBCAM PAGE --------------------------------------- */
+
 #videoStream {
   margin: auto;
   float: left;
