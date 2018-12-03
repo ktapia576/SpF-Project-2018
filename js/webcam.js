@@ -12,7 +12,7 @@ function start() {
         video.srcObject = stream;
       })
       .catch(function(err0r) {
-        console.log("Something went wrong! May have to use chrome!");
+        console.log("Something went wrong! May have to use chrome or Webcam not recognized!!");
       });
   }
 
