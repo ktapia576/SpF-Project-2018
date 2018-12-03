@@ -6,7 +6,8 @@ function db_connect() {
 
         // Try and connect to the database, if a connection has not been established yet
     if(!isset($conn)) {
-             // Load configuration as an array
+        // Load configuration as an array. The location of config file is not accesible
+        // to others externally as it does not have url, being one level above the root folder.     
         $config = parse_ini_file('../private/config.ini');
         $conn = mysqli_connect($config['servername'],$config['username'],$config['password'],$config['dbname']);
     }
