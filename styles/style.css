@@ -11,7 +11,7 @@ body {
 
 header {
   width: 100%;
-  height: 30vh;
+  height: 10vh;
   /*background: url("../images/hero.jpg") no-repeat 50% 50%;*/
   background-size: cover;
 }
@@ -21,7 +21,7 @@ header {
   margin: 4em auto;
   font-size: 20px;
   line-height: 30px;
-  text-align: justify;
+  text-align: center;
 }
 
 .logo {
