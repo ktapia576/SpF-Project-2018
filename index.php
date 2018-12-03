@@ -15,7 +15,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- NavBar Script functionality -->
-  <script src="scripts/nav.js"></script>
+  <script src="js/nav.js"></script>
 </head>
 
 <body>

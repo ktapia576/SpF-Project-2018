@@ -15,10 +15,10 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
   <!-- NavBar Script functionality -->
-  <script src="scripts/nav.js"></script>
+  <script src="js/nav.js"></script>
 
   <!-- Load webcam functionality -->
-  <script src="scripts/webcam.js"></script>
+  <script src="js/webcam.js"></script>
 </head>
 
 <body onload="start();">
